@@ -1,9 +1,10 @@
 import React from "react";
 import ScooterImg from "src/assets/images/LargeScooter.png";
+import LocationPin from "src/assets/images/LocationPin.png";
 
 function MainView() {
   return (
-    <div className="w-[41vw] h-[100%] flex flex-col justify-between bg-background-main py-16 pl-24 mr-16">
+    <div className="w-[41vw] mobile:w-[100vw] h-[100%] flex flex-col justify-between bg-background-main py-16 pl-24 mr-16 mobile:px-6 mobile:py-11">
       {/* Heading */}
       <div className="border-b-[1px] border-b-border-main flex flex-row justify-between items-center pb-8">
         <h5 className="text-title4">Storie</h5>
@@ -33,6 +34,11 @@ function MainView() {
             </span>
             <span className="text-exsParagraph ml-4 text-primary-black">
               New Delhi
+              <img
+                className="inline ml-2"
+                src={LocationPin}
+                alt="location pin"
+              />
             </span>
           </div>
           <div>

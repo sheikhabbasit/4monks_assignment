@@ -4,7 +4,7 @@ import StepperView from "./StepperView";
 
 function HomeViewComponent() {
   return (
-    <section className="w-100 flex h-[600px]">
+    <section className="w-100 flex mobile:flex-col desktop:h-[600px] tablet:h-[600px]">
       <MainView />
       <StepperView />
     </section>
