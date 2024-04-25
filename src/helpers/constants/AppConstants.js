@@ -74,9 +74,12 @@ const QuickLinks1 = ["Become a Dealer", "Locate a Dealer", "Emagine"];
 
 const QuickLinks2 = ["Book a Test Ride", "Book Now", "Contact"];
 
-export const Links = [
+export const Links1 = [
   { label: "Models", items: Models },
   { label: "Company", items: Company },
+];
+
+export const Links2 = [
   { label: "Quick Links", items: QuickLinks1 },
   { label: "  ", items: QuickLinks2 },
 ];
