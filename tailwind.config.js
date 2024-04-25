@@ -23,9 +23,12 @@ module.exports = {
           charcoalLight: "#333333",
           darkGray: "#D9D9D9",
           normalGray: "#E9E9E9",
-          lightGray: "#EFEFEF",
+          lightGray: "#E4E4E4",
           extraLightGray: "#F0F0F0",
           yellow: "#FAFF00",
+        },
+        input: {
+          main: "#ffffff33",
         },
         supportive: {
           green_main: "#00AB1B",
@@ -38,6 +41,7 @@ module.exports = {
         },
         border: {
           main: "#00000033",
+          secondary: "#434343",
         },
         background: {
           main: "#FFFFFF",
@@ -74,7 +78,7 @@ module.exports = {
           },
         ],
         title: [
-          "48px",
+          "50px",
           {
             lineHeight: "normal",
             fontWeight: "600",
