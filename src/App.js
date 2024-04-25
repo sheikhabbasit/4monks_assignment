@@ -1,12 +1,14 @@
 import React, { Fragment } from "react";
-import Header from "./components/common/Header";
-import HomeViewComponent from "./components/views/Home";
+import Header from "src/components/common/Header";
+import HomeViewComponent from "src/components/views/Home";
+import Footer from "src/components/common/Footer";
 
 function App() {
   return (
     <Fragment>
       <Header />
       <HomeViewComponent />
+      <Footer />
     </Fragment>
   );
 }
